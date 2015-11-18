@@ -61,19 +61,19 @@ public class BinarySearchQuizzer2 {
 			pass++;
 			System.out.println("Give me left limit");
 			if(input.nextInt() != left) {
-				break;
+				System.out.println("The correct left limit is " + left);
 			}	
 			System.out.println("Give me right limit");
 			if(input.nextInt() != right) {
-				break;
+				System.out.println("The correct right limit is " + right);
 			}	
 			System.out.println("Give me middle position");
 			if(input.nextInt() != middle) {
-				break;
+				System.out.println("The correct middle position is " + middle);
 			}	
 			System.out.println("Give me the middle integer");
 			if(input.nextInt() != middleNum) {
-				break;
+				System.out.println("The correct middle integer is " + middleNum);
 			}	
 			
 			System.out.println("Pass#" + pass + "  Left: " + left + "  Right: " + right + "  middle: " + middle + "  middle value: " + middleNum);
